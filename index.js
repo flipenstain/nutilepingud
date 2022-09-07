@@ -3,20 +3,8 @@ const app = express()
 
 app.use(express.json())
 
-let notes = [
-  {
-    id: 1,
-    content: ""
-    }
-]
-
-app.get('/api/notes', (request, response) => {
-  console.log(notes)
-  response.json(notes)
-})
-
 app.get(["/", "/:nimi"], (req, res) => {
-  greeting = "<h1>Hello From Node on Fly!</h1>"
+  greeting = "<h1>Hello From Henri!</h1>"
   nimi = req.params["name"]
   if (nimi) {
     res.send(greeting + "</br>and hello to " + nimi)
