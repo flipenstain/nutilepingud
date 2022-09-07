@@ -1,18 +1,20 @@
 Nutilepingute esimene kodutöö:
 
-Api endpoint mille vastu teha POST päring: small-star-4205.fly.dev/api
+Api endpoint mille vastu teha `POST` päring: `small-star-4205.fly.dev/api`
 
 Päringu struktuur:
 
-
+```
 POST small-star-4205.fly.dev/api  HTTP/1.1
 content-type: application/json
 
 {
     "content": "25,2% Inflatsioon"
 }
+```
+Vastus:
 
---
+```
 
 HTTP/1.1 200 OK
 x-powered-by: Express
@@ -30,3 +32,4 @@ fly-request-id: 01GCBZMBZTWXVZZJN59G7B1347-fra
 {
   "content": "Tere, 25,2% Inflatsioon"
 }
+```
