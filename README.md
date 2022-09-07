@@ -1,4 +1,4 @@
-Nutilepingute esimene kodutöö:
+### Nutilepingute esimese kodutöö juhend:
 
 Api endpoint mille vastu teha `POST` päring: `small-star-4205.fly.dev/api`
 
@@ -12,7 +12,7 @@ content-type: application/json
     "content": "25,2% Inflatsioon"
 }
 ```
-Vastus:
+Vastuse kuju:
 
 ```
 
